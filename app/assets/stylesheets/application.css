@@ -1,5 +1,5 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
+z * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
@@ -13,3 +13,69 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+	background-color: #fff;
+	color: #333;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 33px;
+}
+
+.main-text {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 33px;
+}
+
+.start{
+	color: #333;
+	margin-left: 33px;
+}
+
+a{
+	color: #333;
+}
+
+a:hover{
+	color: white;
+	background-color: #333;
+}
+
+th {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+td{
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 7px;
+}
+
+.title-index, .body-index{
+	margin-bottom: 10px;
+}
+
+.title-show, .body-show{
+	margin: 33px;
+
+}
+
+.title-edit, .body-edit, .update-edit{
+	margin-bottom: 10px;
+}
+
+#notice{
+	color: green;
+	margin: 33px;
+}
+
+#error-explanation{
+	color: red;
+}
+
+
+
